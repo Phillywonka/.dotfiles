@@ -8,4 +8,6 @@ Requirements:
 
 To install the dotfiles:
 
+```
   env RCRC=$HOME/dotfiles/rcrc rcup
+```
