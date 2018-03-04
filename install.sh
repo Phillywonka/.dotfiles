@@ -64,6 +64,7 @@ handle_file_ln() {
   $DIRNAME "$2" | $XARGS $MKDIR -p
   $LN -sf "$1" "$2"
 }
+handle_file_ln "/Users/Philip/.dotfiles/ideavimrc" "/Users/Philip/.ideavimrc"
 handle_file_ln "/Users/Philip/.dotfiles/install.sh" "/Users/Philip/.install.sh"
 handle_file_ln "/Users/Philip/.dotfiles/vim/autoload/pathogen.vim" "/Users/Philip/.vim/autoload/pathogen.vim"
 handle_file_ln "/Users/Philip/.dotfiles/vim/autoload/statusline.vim" "/Users/Philip/.vim/autoload/statusline.vim"
