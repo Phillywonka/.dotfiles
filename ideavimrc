@@ -1,0 +1,22 @@
+source ~/.vimrc
+
+"noremap <Space> <Nop>
+let mapleader = " "                    
+" Set the leader to space
+
+nnoremap <leader>vs :source ~/.ideavimrc<CR>     
+nnoremap <leader>q :q<CR>
+
+"I love that this is working now
+nnoremap <C-k> :action MethodUp<cr>
+nnoremap <C-j> :action MethodDown<cr>
+
+nnoremap \r :action Run<cr>
+
+
+
+" Wat ik niet leuk vind aan programmeren is dat het voor het
+" grootste deel allemaal serieus werk is wat je levert.
+" Ik haal er niet zoveel voldoening uit als dat ik daadwerkelijk 
+" zou willen. Dit komt omdat ik continu bezig ben met het fixen
+" van hele kleine dingetjes.
