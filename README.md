@@ -3,9 +3,10 @@
 Requirements:
 
 - [rcm](https://github.com/thoughtbot/rcm)
-- [vundle](https://github.com/VundleVim/Vundle.vim)
+- [zsh](http://www.zsh.org)
+- [fzf](https://github.com/junegunn/fzf)
 
-Debian users must have vim-gtk installed because Debian's default vim is not compiled with clipboard.
+Debian users must have **vim-gtk** installed because Debian's default vim is not compiled with clipboard.
 
 To install the dotfiles:
 
