@@ -13,7 +13,12 @@ Debian users must have **vim-gtk** installed because Debian's default vim is not
 
 To install the dotfiles:
 
-```
-  git clone https://github.com/Phillywonka/.dotfiles.git
-  env RCRC=$HOME/dotfiles/rcrc rcup
+```sh
+#Clone the git repository in your home directory.
+git clone https://github.com/Phillywonka/.dotfiles.git
+
+#This command will create symlinks for config files in your home directory.</br>
+#Setting the RCRC environment variable tells rcup to use standard configuration options.
+
+env RCRC=$HOME/dotfiles/rcrc rcup
 ```
