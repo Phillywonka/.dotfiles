@@ -10,5 +10,6 @@ Debian users must have vim-gtk installed because Debian's default vim is not com
 To install the dotfiles:
 
 ```
+  git clone https://github.com/Phillywonka/.dotfiles.git
   env RCRC=$HOME/dotfiles/rcrc rcup
 ```
