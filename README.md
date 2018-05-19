@@ -9,6 +9,8 @@
 ### Debian users
 Debian users must have **vim-gtk** installed because Debian's default vim is not compiled with clipboard.
 
+## Installation
+
 To install the dotfiles:
 
 ```
