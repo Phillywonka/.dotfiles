@@ -19,6 +19,5 @@ git clone https://github.com/Phillywonka/.dotfiles.git
 
 #This command will create symlinks for config files in your home directory.</br>
 #Setting the RCRC environment variable tells rcup to use standard configuration options.
-
 env RCRC=$HOME/dotfiles/rcrc rcup
 ```
