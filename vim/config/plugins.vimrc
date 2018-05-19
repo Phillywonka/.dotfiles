@@ -1,9 +1,15 @@
+set nocp 
 call pathogen#infect()                  "enable pathogen
+
+
+if exists('/~/.dotfiles') 
+      source /~/.dotfiles/vim/autoload/pathogen.vim
+      source /~/.dotfiles/vim/vimrc
+endif
 
 """""""""""""""""""
 " Vundle
 """""""""""""""""""
-
 call vundle#begin()
 	Plugin 'VundleVim/Vundle.vim'
     Plugin 'chriskempson/base16-vim'
