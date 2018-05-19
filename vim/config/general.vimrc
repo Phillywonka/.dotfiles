@@ -20,6 +20,7 @@ syntax on
 set relativenumber                      " enable relative line numbers
 set autoindent                          " enable autoindent
 set backspace=indent,eol,start          " make backspace work on linebreaks
+set backspace=2                         " make backspace work like most other programs
 imap <C-Return> <CR><CR><C-o>k<Tab>     " auto indent with new line
 
 " Move to next and previous function
