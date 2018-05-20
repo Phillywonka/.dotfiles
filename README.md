@@ -29,7 +29,7 @@ To update the dotfiles you have to edit the files inside the ```.dotfiles``` dir
 After that you can run ```rcup <file_name>``` to update the specified dotfile.
 
 
-## Issues
+### Issues
 
 It may be the case that te specified theme in ```zpreztorc``` file:
 
