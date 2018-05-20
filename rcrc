@@ -1,2 +1,3 @@
 HOSTNAME="PC-Philip"
+EXCLUDES="README.md"
 
