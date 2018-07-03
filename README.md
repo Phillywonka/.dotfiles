@@ -46,4 +46,4 @@ The list of available themes can be found with ```prompt -l```.
 
 #### Raspbian support
 
-The vim configuration doens't work perfectly yet in the Raspian distro.
+The vim configuration doens't work perfectly yet on Raspbian.
