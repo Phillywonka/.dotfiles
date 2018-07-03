@@ -44,6 +44,6 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 
 The list of available themes can be found with ```prompt -l```.
 
-#### Raspian support
+#### Raspbian support
 
 The vim configuration doens't work perfectly yet in the Raspian distro.
