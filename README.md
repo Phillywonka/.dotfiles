@@ -35,6 +35,7 @@ After that you can run ```rcup <file_name>``` to update the specified dotfile.
 
 ### Issues
 
+#### zprezto theme
 It may be the case that te specified theme in ```zpreztorc``` file:
 
 ```sh
@@ -43,3 +44,6 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 
 The list of available themes can be found with ```prompt -l```.
 
+#### Raspian support
+
+The vim configuration doens't work perfectly yet in the Raspian distro.
