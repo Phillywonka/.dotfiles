@@ -29,7 +29,7 @@ sudo env RCRC=$HOME/dotfiles/rcrc rcup
 
 ## Update dotfiles
 
-To update the dotfiles you have to edit the files inside the ```.dotfiles``` directory.</br>
+To update the dotfiles you have to edit the files inside the ```.dotfiles``` directory.
 After that you can run ```rcup <file_name>``` to update the specified dotfile.
 
 
@@ -39,7 +39,7 @@ After that you can run ```rcup <file_name>``` to update the specified dotfile.
 It may be the case that te specified theme in ```zpreztorc``` file:
 
 ```sh
-zstyle ':prezto:module:prompt' theme 'sorin'
+zstyle ':prezto:module:prompt' theme 'pure'
 ```
 
 The list of available themes can be found with ```prompt -l```.
