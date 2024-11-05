@@ -3,10 +3,6 @@ let mapleader=" "                     " Set the leader to space
 
 set dir=~/.vimswap//,/var/tmp//,/tmp//,. " Store swap files in fixed location, not current directory.
 
-" Update term title but restore old title after leaving Vim.
-" set title
-" set titleold=
-
 " Disable the error bell.
 set vb                                  " enable vim's internal visual bell.
 set t_vb=                               " set the effect of the vim visual bell to do nothing.
@@ -46,6 +42,8 @@ noremap  <buffer> <silent> $ g$
 let filetype_m='objc'
 let filetype_pl='prolog'
 
+set textwidth=0 wrapmargin=0
+
 set tabstop=4       " The width of a TAB is set to 4.
                     " Still it is a \t. It is just that
                     " Vim will interpret it to be having
@@ -57,9 +55,8 @@ set softtabstop=4   " Sets the number of columns for a TAB
 
 set expandtab       "  TABs to spaces
 
-" easy system clipboard copy/paste
+" Prevents mouse from selecting line numbers
 set mouse=a
-
 
 "Folding
 set foldmethod=indent
@@ -70,7 +67,7 @@ set foldlevel=2
 " Creating splits
 nnoremap ,w <C-w>
 
-"Mappings for saving and quiting
+" Mappings for saving and quiting
 nmap <C-s> :w<CR>
 nmap <C-q> :q<CR>
 vmap <C-s> <Esc><c-s>gv
@@ -89,7 +86,7 @@ noremap <space>y "*y
 noremap yy "*yy
 noremap p "*p
 noremap P "*P
-inoremap <C-p> <C-c>"*p
+" inoremap <C-p> <C-c>"*p
 nnoremap <space>D "*dd
 nnoremap <space>d "*d
 vnoremap <space>d "*d
@@ -101,4 +98,3 @@ set splitright
 "Jump out of parentheses etc
 inoremap <C-e> <C-o>A
 inoremap ( ()<Esc>i
-

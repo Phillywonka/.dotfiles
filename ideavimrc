@@ -13,5 +13,7 @@ nnoremap <C-j> :action MethodDown<cr>
 
 nnoremap \r :action Run<cr>
 
+"imap <C-p> 
+
 
 

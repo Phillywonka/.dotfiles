@@ -1,7 +1,6 @@
 set nocp 
 call pathogen#infect()                  "enable pathogen
 
-
 if exists('/~/.dotfiles') 
       source /~/.dotfiles/vim/autoload/pathogen.vim
       source /~/.dotfiles/vim/vimrc
@@ -22,12 +21,6 @@ filetype plugin indent on     "required for Vundle
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 
-" Powerline setup
-"let g:Powerline_symbols = 'fancy'
-"set  rtp+=//usr/local/lib/python2.7/site-packages/powerline/bindings/vim
-"set laststatus=2
-"
-
 "Vimdiff
 
 """""""""""""""""""
@@ -37,8 +30,3 @@ highlight DiffAdd    cterm=BOLD ctermfg=NONE ctermbg=22
 highlight DiffDelete cterm=BOLD ctermfg=NONE ctermbg=52
 highlight DiffChange cterm=BOLD ctermfg=NONE ctermbg=23
 highlight DiffText   cterm=BOLD ctermfg=red ctermbg=23
-
-" Git difftool
-"imap <leader>cq :cq<CR>
-"noremap <leader>cq :cq<CR>
-"vmap <leader>cq :cq<CR>

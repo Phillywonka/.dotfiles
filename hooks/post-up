@@ -1,9 +1,0 @@
-#!/bin/sh
-
-if [ -e $HOME/.vim/bundle/vundle ]; then
-  vim -E -s +PluginUpdate: +qa
-else
-  git clone https://github.com/gmarik/vundle.git $HOME/.vim/bundle/vundle
-  vim -u $HOME/.vimrc +PluginInstall +qa
-fi
-
